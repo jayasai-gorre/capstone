@@ -13,7 +13,7 @@ public class AdminLoginServlet extends HttpServlet {
         String password = request.getParameter("password");
 
         // Replace with your actual username and password verification logic
-        if ("amaresh_04".equals(username) && "Koneti@123".equals(password)) {
+        if ("jayasai".equals(username) && "jayasai".equals(password)) {
             // Redirect to the employee management page or dashboard after successful login
             response.sendRedirect(request.getContextPath() + "/employees");
         } else {
